@@ -40,12 +40,14 @@ li.cat-item .children {
 	padding: 10px 0 0 36px;
 }
 
-.side-widget ul.children li {
-	border-bottom: none;
-	padding-top: 6px;
+body #header {
+	background-size: contain!important;
+	background-repeat: no-repeat;
 }
 
-
+body #header .wrap p, a {
+	margin-left: 24px;
+}
 /* -------------------------------------------------------------------------------- */
 /*	Category mono
 /* -------------------------------------------------------------------------------- */
