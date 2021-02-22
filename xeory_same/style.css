@@ -40,12 +40,16 @@ li.cat-item .children {
 	padding: 10px 0 0 36px;
 }
 
+li.cat-item .children li {
+	border-bottom: none;
+}
+
 body #header {
 	background-size: contain!important;
 	background-repeat: no-repeat;
 }
 
-body #header .wrap p, a {
+header#header h1#logo p,header#header h1#logo a {
 	margin-left: 24px;
 }
 /* -------------------------------------------------------------------------------- */
